@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0"
+    />
+    <title>الرئيسية</title>
+
+    <!-- CSS  -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link
+      href="css/materialize.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link
+      href="css/style.css"
+      type="text/css"
+      rel="stylesheet"
+      media="screen,projection"
+    />
+    <link href="css/swipeButton.css" type="text/css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://kendo.cdn.telerik.com/2021.2.616/styles/kendo.default-v2.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://kendo.cdn.telerik.com/2021.2.616/js/kendo.all.min.js"></script>
+    <script src="js/password.js"></script>
+
+  </head>
+
+  <body class="in">
+
+    <!-- Secret Password -->
+
+      <div class="pass" id="pass-page">
+        <form enctype="text/plain">
+        <label for="pass">كلمة المرور</label>
+        <input id="pass" type="password" placeholder="فضلاً أدخل كلمة المرور" name="password" tabindex="1" required >
+        <span class="hide" id="label">* كلمة المرور الذي أدخلتها غير صحيحة</span>
+      </form>
+        <button onclick="checkPassword()">أدخل</button>
+      </div>
+
+
+<div class="main hide" id="main">
+    <header>
+      <img src="img/greenbar.png" />
+    </header>
+
+    <!-- <div class="care">
+      <img src="img/99.png" alt="care">
+    </div> -->
+    
+
+    <div class="content">
+      <h3>
+          <span>
+            <strong style="color:#FFF;font-weight:bold;"><br>لتدشين <br></strong>
+            معرض المملكة العربية السعودية المشارك في مكتب الامم المتحدة المعني بالمخدرات و الجريمة (UNODC)
+            <!--(CND) وتمثيل المملكة في الدورة (66) للجنة المخدرات -->
+            <!--
+           <br>
+           ——————
+           <br>
+            Saudi Arabia Exhibition
+            At The (UNODC)<br> and representing the Kingdom in the (66) session of the Committee on Narcotic Drugs (CND) 
+            <br>
+            <br>
+            <strong style="color:#FFF">
+              
+              2023 / March / (17 - 13) 
+               
+            </strong>
+            <br>
+          -->
+          </span>
+      </h3>
+    </div>
+
+    <footer>
+      <span>تفضل بسحب الشعار</span>
+
+      <div id="button-background">
+        <img class="button-background__bg-img" src="img/footer.svg" />
+        <div id="slider">
+          <img
+            src="img/%D8%A7%D9%84%D8%B2%D8%B1.png"
+            class="button-background__img"
+            unselectable="on"
+          />
+        </div>
+      </div>
+    </footer>
+</div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/swipeButtom.js"></script>
+
+  </body>
+</html>
